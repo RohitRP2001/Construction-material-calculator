@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        a = [, ,]
+        function update() {
+            var val = document.getElementById("t1").value;
+            document.getElementById("t2").value = a;
+            a.push(val)
+            a.pop()
+
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="">
+        Enter the buitup area : <input type="text" id="t1"><br />
+        Recent values <input type="text" id="t2">
+        <input type="button" onclick="update()" value="click">
+
+    </form>
+</body>
+
+</html>

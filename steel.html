@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>STEEL</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    
+    <script type="text/javascript">
+
+      function calculate() {
+
+        var proportion = document.getElementById("proportion").value;
+        var kgs = document.getElementById("kgs").value;
+
+        switch (proportion) {
+
+          case "8mm": document.getElementById("num_rods").value = Math.ceil(kgs / 4.809);
+            document.getElementById("bundles").value = Math.ceil((kgs / 4.809) / 10);
+
+            break;
+          case "10mm": document.getElementById("num_rods").value = Math.ceil(kgs / 7.515);
+            document.getElementById("bundles").value = Math.ceil((kgs / 7.515) / 7);
+            break;
+          case "12mm": document.getElementById("num_rods").value = Math.ceil(kgs / 10.822);
+            document.getElementById("bundles").value = Math.ceil((kgs / 10.822) / 5);
+            break;
+          case "16mm": document.getElementById("num_rods").value = Math.ceil(kgs / 19.239);
+            document.getElementById("bundles").value = Math.ceil((kgs / 19.239) / 3);
+            break;
+          case "20mm": document.getElementById("num_rods").value = Math.ceil(kgs / 30.061);
+            document.getElementById("bundles").value = Math.ceil((kgs / 30.061) / 1);
+            break;
+          case "25mm": document.getElementById("num_rods").value = Math.ceil(kgs / 46.971);
+            document.getElementById("bundles").value = Math.ceil((kgs / 46.971) / 1);
+            break;
+          case "28mm": document.getElementById("num_rods").value = Math.ceil(kgs / 58.920);
+            document.getElementById("bundles").value = Math.ceil((kgs / 58.920) / 1);
+            break;
+          case "32mm": document.getElementById("num_rods").value = Math.ceil(kgs / 76.957);
+            document.getElementById("bundles").value = Math.ceil((kgs / 76.957) / 1);
+            break;
+
+
+
+        }
+
+
+      }
+
+    </script>
+
+
+</head>
+<style>
+    div.a {
+      position: relative;
+      left: 100px;
+    }
+
+    div.b {
+      position: relative;
+      left: 100px;
+    }
+
+    div.c {
+      position: relative;
+      left: 710px;
+    }
+  </style>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="Home.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                   
+                </div>
+               
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="Home.html">
+                  
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Other 
+            </div>
+
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="earth_work.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Earth Work</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="size_stone.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Size Stone</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="concrete.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Concrete</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="brick.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Brickwork</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="plastring.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Plastring</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="flooring.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Flooring</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="painting.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Painting</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="steel.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Steel</span></a>
+            </li>
+
+             <li class="nav-item">
+                <a class="nav-link" href="water_sump.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>Water Sump</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+           
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </nav>
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Construction Material</h1>
+                    </div>
+
+       <form>
+    <br><br><br>
+    <div class="a">
+      <h2>STEEL</h2>
+    </div>
+    <br>
+    <div class="b">
+      <label for="brick_numbers">DIA OF RODS</label>
+      &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+      <label for="cement_cums_or_bags">kgs</label>
+      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      <label for="cement_cums_or_bags">no.of.rods</label>
+      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      <label for="cement_cums_or_bags">bundles</label>
+    </div>
+    <div class="a">
+      <select id="proportion" style=width:100px;height:53px;>
+        <option value="8mm" selected>8mm</option>
+        <option value="10mm">10mm</option>
+        <option value="12mm">12mm</option>
+        <option value="16mm">16mm</option>
+        <option value="20mm">20mm</option>
+        <option value="25mm">25mm</option>
+        <option value="28mm">28mm</option>
+        <option value="32mm">32mm</option>
+      </select>
+      &ensp;&ensp;&ensp;&ensp;&ensp;
+      <input type="text" style=width:100px;height:50px; id="kgs" name="earth_worj">
+      &ensp;&ensp;&ensp;&ensp;&ensp;
+      <input type="text" style=width:100px;height:50px; id="num_rods" name="proportion"><label for="proportion">
+        &ensp;&ensp;&ensp;&ensp;&ensp;
+        <input type="text" style=width:100px;height:50px; id="bundles" name="brick_numbers">
+    </div>
+    <br><br>
+    <div class="a">
+      <input type="button" class="btn btn-warning btn-icon-split" style="width:100px;height:54px;" onclick="calculate()" id="calculate_btn" value="CALCULATE">
+      &nbsp;&nbsp;&nbsp;
+      <input type="reset" class="btn btn-success btn-icon-split" style="width:100px;height:54px;" id="reset" value="RESET">
+    </div>
+    </from>
+ 
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
